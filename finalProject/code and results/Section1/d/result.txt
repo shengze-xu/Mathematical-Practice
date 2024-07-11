@@ -1,0 +1,15 @@
+ 0  1  1  1  1  1  1  1  1  1  1  1  1
+-1  0  0  0  0  0  0  0  0  0  0  0  0
+-1  0  0  1  1  1  1  1  1  1  1  1  1
+-1  0 -1  0  1  1  1  0  0  0  0  0  0
+-1  0 -1 -1  0  1  1  0  0  0  0  0  0
+-1  0 -1 -1 -1  0  1  0  0  0  0  0  0
+-1  0 -1 -1 -1 -1  0  0  0  0  0  0  0
+-1  0 -1  0  0  0  0  0  1  1  1  0  0
+-1  0 -1  0  0  0  0 -1  0  1  1  0  0
+-1  0 -1  0  0  0  0 -1 -1  0  1  0  0
+-1  0 -1  0  0  0  0 -1 -1 -1  0  0  0
+-1  0 -1  0  0  0  0  0  0  0  0  0  0
+-1  0 -1  0  0  0  0  0  0  0  0  0  0
+a[i][j] represents the partial order relationship between the i-th curve and the j-th curve.
+1 means the former contains the latter, -1 is the opposite, 0 means no containment.
